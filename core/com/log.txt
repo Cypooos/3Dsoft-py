@@ -1,0 +1,194 @@
+
+[2020-06-27 07:38:39] Start
+DEBUG - [2020-06-27 07:38:40] {__main__} <module>: Logger imported
+DEBUG - [2020-06-27 07:38:40] {__main__} <module>: Configuration Loaded
+DEBUG - [2020-06-27 07:38:40] {core.configParser} <module>: Config Parser Imported
+INFO - [2020-06-27 07:38:40] {core.TVmanager} <class 'core.TVmanager.TVmanager'> reloadModules: Reloading internal modules
+DEBUG - [2020-06-27 07:38:40] {core.TVmanager} <class 'core.TVmanager.TVmanager'> reloadModules: Instantiate classes
+DEBUG - [2020-06-27 07:38:40] {core.configParser} configParser: Encoding config for class :'GoogleCalendarAgent'
+DEBUG - [2020-06-27 07:38:40] {core.configParser} configParser: Converting 'falses' to 'bool' for param 'ReloadAccount'
+ERROR - [2020-06-27 07:38:40] {core.configParser} configParser: Convertion impossible for config file: ReloadAccount:falses in section [GoogleCalendar] can't become a bool
+WARNING - [2020-06-27 07:38:40] {core.configParser} configParser: Putting the string version, THIS CAN LEAD TO BROKEN CODE !
+DEBUG - [2020-06-27 07:38:40] {core.configParser} configParser: Converting '10' to 'int' for param 'BufferSize'
+DEBUG - [2020-06-27 07:38:40] {core.configParser} configParser: Converting 'None' to 'str' for param 'ShowOnEmpty'
+DEBUG - [2020-06-27 07:38:40] {core.configParser} configParser: Converting 'TV' to 'str' for param 'CalendarName'
+DEBUG - [2020-06-27 07:38:40] {core.configParser} configParser: Converting 'core/planning/client_secret.json' to 'str' for param 'Client_secret_file'
+DEBUG - [2020-06-27 07:38:40] {core.configParser} configParser: Converting 'core/planning/google_flow.pickle' to 'str' for param 'Client_flow_pickle_file'
+DEBUG - [2020-06-27 07:38:40] {core.planning.GoogleCalendar} <class 'core.planning.GoogleCalendar.GoogleCalendarAgent'> __init__: Loading credential
+DEBUG - [2020-06-27 07:38:40] {core.planning.GoogleCalendar} <class 'core.planning.GoogleCalendar.GoogleCalendarAgent'> __init__: Starting service
+INFO - [2020-06-27 07:38:41] {core.planning.GoogleCalendar} <class 'core.planning.GoogleCalendar.GoogleCalendarAgent'> reload: Reloading calendar...
+DEBUG - [2020-06-27 07:38:41] {core.planning.GoogleCalendar} <class 'core.planning.GoogleCalendar.GoogleCalendarAgent'> reload: Set calendar as 'l9aa3gooeb3graogdp9rmjh3fc@group.calendar.google.com'
+DEBUG - [2020-06-27 07:38:41] {core.configParser} configParser: Encoding config for class :'ProgramLoader'
+DEBUG - [2020-06-27 07:38:41] {core.configParser} configParser: Converting './programs' to 'str' for param 'ProgramsFolder'
+DEBUG - [2020-06-27 07:38:41] {core.configParser} configParser: Encoding config for class :'VLCplay'
+DEBUG - [2020-06-27 07:38:41] {core.configParser} configParser: Converting 'false' to 'bool' for param 'HideVLC'
+DEBUG - [2020-06-27 07:38:41] {__main__} <module>: Manager Setup
+DEBUG - [2020-06-27 07:38:41] {__main__} <module>: Starting manager
+ERROR - [2020-06-27 07:38:41] {core.planning.GoogleCalendar} <class 'core.planning.GoogleCalendar.GoogleCalendarAgent'> getEvents: No events find in Google Calendar !
+
+[2020-06-27 07:40:49] Start
+DEBUG - [2020-06-27 07:40:49] {__main__} <module>: Logger imported
+DEBUG - [2020-06-27 07:40:49] {__main__} <module>: Configuration Loaded
+DEBUG - [2020-06-27 07:40:50] {core.configParser} <module>: Config Parser Imported
+INFO - [2020-06-27 07:40:50] {core.TVmanager} <class 'core.TVmanager.TVmanager'> reloadModules: Reloading internal modules
+DEBUG - [2020-06-27 07:40:50] {core.TVmanager} <class 'core.TVmanager.TVmanager'> reloadModules: Instantiate classes
+DEBUG - [2020-06-27 07:40:50] {core.configParser} configParser: Encoding config for class :'GoogleCalendarAgent'
+DEBUG - [2020-06-27 07:40:50] {core.configParser} configParser: Converting 'falses' to 'bool' for param 'ReloadAccount'
+ERROR - [2020-06-27 07:40:50] {core.configParser} configParser: Convertion impossible for config file: ReloadAccount:falses in section [GoogleCalendar] can't become a bool
+WARNING - [2020-06-27 07:40:50] {core.configParser} configParser: Putting the string version, THIS CAN LEAD TO BROKEN CODE !
+DEBUG - [2020-06-27 07:40:50] {core.configParser} configParser: Converting '10' to 'int' for param 'BufferSize'
+DEBUG - [2020-06-27 07:40:50] {core.configParser} configParser: Converting 'None' to 'str' for param 'ShowOnEmpty'
+DEBUG - [2020-06-27 07:40:50] {core.configParser} configParser: Converting 'TV' to 'str' for param 'CalendarName'
+DEBUG - [2020-06-27 07:40:50] {core.configParser} configParser: Converting 'core/planning/client_secret.json' to 'str' for param 'Client_secret_file'
+DEBUG - [2020-06-27 07:40:50] {core.configParser} configParser: Converting 'core/planning/google_flow.pickle' to 'str' for param 'Client_flow_pickle_file'
+DEBUG - [2020-06-27 07:40:50] {core.planning.GoogleCalendar} <class 'core.planning.GoogleCalendar.GoogleCalendarAgent'> __init__: Loading credential
+DEBUG - [2020-06-27 07:40:50] {core.planning.GoogleCalendar} <class 'core.planning.GoogleCalendar.GoogleCalendarAgent'> __init__: Starting service
+INFO - [2020-06-27 07:40:50] {core.planning.GoogleCalendar} <class 'core.planning.GoogleCalendar.GoogleCalendarAgent'> reload: Reloading calendar...
+DEBUG - [2020-06-27 07:40:51] {core.planning.GoogleCalendar} <class 'core.planning.GoogleCalendar.GoogleCalendarAgent'> reload: Set calendar as 'l9aa3gooeb3graogdp9rmjh3fc@group.calendar.google.com'
+DEBUG - [2020-06-27 07:40:51] {core.configParser} configParser: Encoding config for class :'ProgramLoader'
+DEBUG - [2020-06-27 07:40:51] {core.configParser} configParser: Converting './programs' to 'str' for param 'ProgramsFolder'
+DEBUG - [2020-06-27 07:40:51] {core.configParser} configParser: Encoding config for class :'VLCplay'
+DEBUG - [2020-06-27 07:40:51] {core.configParser} configParser: Converting 'false' to 'bool' for param 'HideVLC'
+DEBUG - [2020-06-27 07:40:51] {__main__} <module>: Manager Setup
+DEBUG - [2020-06-27 07:40:51] {__main__} <module>: Starting manager
+ERROR - [2020-06-27 07:40:51] {core.planning.GoogleCalendar} <class 'core.planning.GoogleCalendar.GoogleCalendarAgent'> getEvents: No events find in Google Calendar !
+DEBUG - [2020-06-27 07:40:51] {core.planning.GoogleCalendar} <class 'core.planning.GoogleCalendar.GoogleCalendarAgent'> getEvents: bufferSize = 10, CalendarID = l9aa3gooeb3graogdp9rmjh3fc@group.calendar.google.com
+
+[2020-06-27 07:41:45] Start
+DEBUG - [2020-06-27 07:41:45] {__main__} <module>: Logger imported
+DEBUG - [2020-06-27 07:41:45] {__main__} <module>: Configuration Loaded
+DEBUG - [2020-06-27 07:41:46] {core.configParser} <module>: Config Parser Imported
+INFO - [2020-06-27 07:41:46] {core.TVmanager} <class 'core.TVmanager.TVmanager'> reloadModules: Reloading internal modules
+DEBUG - [2020-06-27 07:41:46] {core.TVmanager} <class 'core.TVmanager.TVmanager'> reloadModules: Instantiate classes
+DEBUG - [2020-06-27 07:41:46] {core.configParser} configParser: Encoding config for class :'GoogleCalendarAgent'
+DEBUG - [2020-06-27 07:41:46] {core.configParser} configParser: Converting 'falses' to 'bool' for param 'ReloadAccount'
+ERROR - [2020-06-27 07:41:46] {core.configParser} configParser: Convertion impossible for config file: ReloadAccount:falses in section [GoogleCalendar] can't become a bool
+WARNING - [2020-06-27 07:41:46] {core.configParser} configParser: Putting the string version, THIS CAN LEAD TO BROKEN CODE !
+DEBUG - [2020-06-27 07:41:46] {core.configParser} configParser: Converting '10' to 'int' for param 'BufferSize'
+DEBUG - [2020-06-27 07:41:46] {core.configParser} configParser: Converting 'None' to 'str' for param 'ShowOnEmpty'
+DEBUG - [2020-06-27 07:41:46] {core.configParser} configParser: Converting 'TV' to 'str' for param 'CalendarName'
+DEBUG - [2020-06-27 07:41:46] {core.configParser} configParser: Converting 'core/planning/client_secret.json' to 'str' for param 'Client_secret_file'
+DEBUG - [2020-06-27 07:41:46] {core.configParser} configParser: Converting 'core/planning/google_flow.pickle' to 'str' for param 'Client_flow_pickle_file'
+DEBUG - [2020-06-27 07:41:46] {core.planning.GoogleCalendar} <class 'core.planning.GoogleCalendar.GoogleCalendarAgent'> __init__: Loading credential
+DEBUG - [2020-06-27 07:41:46] {core.planning.GoogleCalendar} <class 'core.planning.GoogleCalendar.GoogleCalendarAgent'> __init__: Starting service
+INFO - [2020-06-27 07:41:47] {core.planning.GoogleCalendar} <class 'core.planning.GoogleCalendar.GoogleCalendarAgent'> reload: Reloading calendar...
+DEBUG - [2020-06-27 07:41:47] {core.planning.GoogleCalendar} <class 'core.planning.GoogleCalendar.GoogleCalendarAgent'> reload: Set calendar as 'l9aa3gooeb3graogdp9rmjh3fc@group.calendar.google.com'
+DEBUG - [2020-06-27 07:41:47] {core.configParser} configParser: Encoding config for class :'ProgramLoader'
+DEBUG - [2020-06-27 07:41:47] {core.configParser} configParser: Converting './programs' to 'str' for param 'ProgramsFolder'
+DEBUG - [2020-06-27 07:41:47] {core.configParser} configParser: Encoding config for class :'VLCplay'
+DEBUG - [2020-06-27 07:41:47] {core.configParser} configParser: Converting 'false' to 'bool' for param 'HideVLC'
+DEBUG - [2020-06-27 07:41:47] {__main__} <module>: Manager Setup
+DEBUG - [2020-06-27 07:41:47] {__main__} <module>: Starting manager
+
+[2020-06-27 07:42:07] Start
+DEBUG - [2020-06-27 07:42:07] {__main__} <module>: Logger imported
+DEBUG - [2020-06-27 07:42:07] {__main__} <module>: Configuration Loaded
+DEBUG - [2020-06-27 07:42:08] {core.configParser} <module>: Config Parser Imported
+INFO - [2020-06-27 07:42:08] {core.TVmanager} <class 'core.TVmanager.TVmanager'> reloadModules: Reloading internal modules
+DEBUG - [2020-06-27 07:42:08] {core.TVmanager} <class 'core.TVmanager.TVmanager'> reloadModules: Instantiate classes
+DEBUG - [2020-06-27 07:42:08] {core.configParser} configParser: Encoding config for class :'GoogleCalendarAgent'
+DEBUG - [2020-06-27 07:42:08] {core.configParser} configParser: Converting 'falses' to 'bool' for param 'ReloadAccount'
+ERROR - [2020-06-27 07:42:08] {core.configParser} configParser: Convertion impossible for config file: ReloadAccount:falses in section [GoogleCalendar] can't become a bool
+WARNING - [2020-06-27 07:42:08] {core.configParser} configParser: Putting the string version, THIS CAN LEAD TO BROKEN CODE !
+DEBUG - [2020-06-27 07:42:08] {core.configParser} configParser: Converting '10' to 'int' for param 'BufferSize'
+DEBUG - [2020-06-27 07:42:08] {core.configParser} configParser: Converting 'None' to 'str' for param 'ShowOnEmpty'
+DEBUG - [2020-06-27 07:42:08] {core.configParser} configParser: Converting 'TV' to 'str' for param 'CalendarName'
+DEBUG - [2020-06-27 07:42:08] {core.configParser} configParser: Converting 'core/planning/client_secret.json' to 'str' for param 'Client_secret_file'
+DEBUG - [2020-06-27 07:42:08] {core.configParser} configParser: Converting 'core/planning/google_flow.pickle' to 'str' for param 'Client_flow_pickle_file'
+DEBUG - [2020-06-27 07:42:08] {core.planning.GoogleCalendar} <class 'core.planning.GoogleCalendar.GoogleCalendarAgent'> __init__: Loading credential
+DEBUG - [2020-06-27 07:42:08] {core.planning.GoogleCalendar} <class 'core.planning.GoogleCalendar.GoogleCalendarAgent'> __init__: Starting service
+INFO - [2020-06-27 07:42:08] {core.planning.GoogleCalendar} <class 'core.planning.GoogleCalendar.GoogleCalendarAgent'> reload: Reloading calendar...
+DEBUG - [2020-06-27 07:42:08] {core.planning.GoogleCalendar} <class 'core.planning.GoogleCalendar.GoogleCalendarAgent'> reload: Set calendar as 'l9aa3gooeb3graogdp9rmjh3fc@group.calendar.google.com'
+DEBUG - [2020-06-27 07:42:08] {core.configParser} configParser: Encoding config for class :'ProgramLoader'
+DEBUG - [2020-06-27 07:42:08] {core.configParser} configParser: Converting './programs' to 'str' for param 'ProgramsFolder'
+DEBUG - [2020-06-27 07:42:08] {core.configParser} configParser: Encoding config for class :'VLCplay'
+DEBUG - [2020-06-27 07:42:08] {core.configParser} configParser: Converting 'false' to 'bool' for param 'HideVLC'
+DEBUG - [2020-06-27 07:42:08] {__main__} <module>: Manager Setup
+DEBUG - [2020-06-27 07:42:08] {__main__} <module>: Starting manager
+WARNING - [2020-06-27 07:42:09] {__main__} <module>: Manager stoped ? Or did program close ?
+
+[2020-06-27 07:45:41] Start
+DEBUG - [2020-06-27 07:45:41] {__main__} <module>: Logger imported
+DEBUG - [2020-06-27 07:45:42] {__main__} <module>: Configuration Loaded
+DEBUG - [2020-06-27 07:45:42] {core.configParser} <module>: Config Parser Imported
+INFO - [2020-06-27 07:45:42] {core.TVmanager} <class 'core.TVmanager.TVmanager'> reloadModules: Reloading internal modules
+DEBUG - [2020-06-27 07:45:42] {core.TVmanager} <class 'core.TVmanager.TVmanager'> reloadModules: Instantiate classes
+DEBUG - [2020-06-27 07:45:42] {core.configParser} configParser: Encoding config for class :'GoogleCalendarAgent'
+DEBUG - [2020-06-27 07:45:42] {core.configParser} configParser: Converting 'falses' to 'bool' for param 'ReloadAccount'
+ERROR - [2020-06-27 07:45:42] {core.configParser} configParser: Convertion impossible for config file: ReloadAccount:falses in section [GoogleCalendar] can't become a bool
+WARNING - [2020-06-27 07:45:42] {core.configParser} configParser: Putting the string version, THIS CAN LEAD TO BROKEN CODE !
+DEBUG - [2020-06-27 07:45:42] {core.configParser} configParser: Converting '10' to 'int' for param 'BufferSize'
+DEBUG - [2020-06-27 07:45:42] {core.configParser} configParser: Converting 'None' to 'str' for param 'ShowOnEmpty'
+DEBUG - [2020-06-27 07:45:42] {core.configParser} configParser: Converting 'TV' to 'str' for param 'CalendarName'
+DEBUG - [2020-06-27 07:45:42] {core.configParser} configParser: Converting 'core/planning/client_secret.json' to 'str' for param 'Client_secret_file'
+DEBUG - [2020-06-27 07:45:42] {core.configParser} configParser: Converting 'core/planning/google_flow.pickle' to 'str' for param 'Client_flow_pickle_file'
+DEBUG - [2020-06-27 07:45:42] {core.planning.GoogleCalendar} <class 'core.planning.GoogleCalendar.GoogleCalendarAgent'> __init__: Loading credential
+DEBUG - [2020-06-27 07:45:42] {core.planning.GoogleCalendar} <class 'core.planning.GoogleCalendar.GoogleCalendarAgent'> __init__: Starting service
+INFO - [2020-06-27 07:45:43] {core.planning.GoogleCalendar} <class 'core.planning.GoogleCalendar.GoogleCalendarAgent'> reload: Reloading calendar...
+DEBUG - [2020-06-27 07:45:44] {core.planning.GoogleCalendar} <class 'core.planning.GoogleCalendar.GoogleCalendarAgent'> reload: Set calendar as 'l9aa3gooeb3graogdp9rmjh3fc@group.calendar.google.com'
+DEBUG - [2020-06-27 07:45:44] {core.configParser} configParser: Encoding config for class :'ProgramLoader'
+DEBUG - [2020-06-27 07:45:44] {core.configParser} configParser: Converting './programs' to 'str' for param 'ProgramsFolder'
+DEBUG - [2020-06-27 07:45:44] {core.configParser} configParser: Encoding config for class :'VLCplay'
+DEBUG - [2020-06-27 07:45:44] {core.configParser} configParser: Converting 'false' to 'bool' for param 'HideVLC'
+DEBUG - [2020-06-27 07:45:44] {__main__} <module>: Manager Setup
+DEBUG - [2020-06-27 07:45:44] {__main__} <module>: Starting manager
+DEBUG - [2020-06-27 07:45:44] {core.planning.GoogleCalendar} <class 'core.planning.GoogleCalendar.GoogleCalendarAgent'> getEvents: event at 2020-06-27T13:30:00+02:00 called test
+WARNING - [2020-06-27 07:45:44] {__main__} <module>: Manager stoped ? Or did program close ?
+
+[2020-06-27 07:46:16] Start
+DEBUG - [2020-06-27 07:46:16] {__main__} <module>: Logger imported
+DEBUG - [2020-06-27 07:46:16] {__main__} <module>: Configuration Loaded
+DEBUG - [2020-06-27 07:46:17] {core.configParser} <module>: Config Parser Imported
+INFO - [2020-06-27 07:46:17] {core.TVmanager} <class 'core.TVmanager.TVmanager'> reloadModules: Reloading internal modules
+DEBUG - [2020-06-27 07:46:17] {core.TVmanager} <class 'core.TVmanager.TVmanager'> reloadModules: Instantiate classes
+DEBUG - [2020-06-27 07:46:17] {core.configParser} configParser: Encoding config for class :'GoogleCalendarAgent'
+DEBUG - [2020-06-27 07:46:17] {core.configParser} configParser: Converting 'falses' to 'bool' for param 'ReloadAccount'
+ERROR - [2020-06-27 07:46:17] {core.configParser} configParser: Convertion impossible for config file: ReloadAccount:falses in section [GoogleCalendar] can't become a bool
+WARNING - [2020-06-27 07:46:17] {core.configParser} configParser: Putting the string version, THIS CAN LEAD TO BROKEN CODE !
+DEBUG - [2020-06-27 07:46:17] {core.configParser} configParser: Converting '10' to 'int' for param 'BufferSize'
+DEBUG - [2020-06-27 07:46:17] {core.configParser} configParser: Converting 'None' to 'str' for param 'ShowOnEmpty'
+DEBUG - [2020-06-27 07:46:17] {core.configParser} configParser: Converting 'TV' to 'str' for param 'CalendarName'
+DEBUG - [2020-06-27 07:46:17] {core.configParser} configParser: Converting 'core/planning/client_secret.json' to 'str' for param 'Client_secret_file'
+DEBUG - [2020-06-27 07:46:17] {core.configParser} configParser: Converting 'core/planning/google_flow.pickle' to 'str' for param 'Client_flow_pickle_file'
+DEBUG - [2020-06-27 07:46:17] {core.planning.GoogleCalendar} <class 'core.planning.GoogleCalendar.GoogleCalendarAgent'> __init__: Loading credential
+DEBUG - [2020-06-27 07:46:17] {core.planning.GoogleCalendar} <class 'core.planning.GoogleCalendar.GoogleCalendarAgent'> __init__: Starting service
+INFO - [2020-06-27 07:46:18] {core.planning.GoogleCalendar} <class 'core.planning.GoogleCalendar.GoogleCalendarAgent'> reload: Reloading calendar...
+DEBUG - [2020-06-27 07:46:18] {core.planning.GoogleCalendar} <class 'core.planning.GoogleCalendar.GoogleCalendarAgent'> reload: Set calendar as 'l9aa3gooeb3graogdp9rmjh3fc@group.calendar.google.com'
+DEBUG - [2020-06-27 07:46:18] {core.configParser} configParser: Encoding config for class :'ProgramLoader'
+DEBUG - [2020-06-27 07:46:18] {core.configParser} configParser: Converting './programs' to 'str' for param 'ProgramsFolder'
+DEBUG - [2020-06-27 07:46:18] {core.configParser} configParser: Encoding config for class :'VLCplay'
+DEBUG - [2020-06-27 07:46:18] {core.configParser} configParser: Converting 'false' to 'bool' for param 'HideVLC'
+DEBUG - [2020-06-27 07:46:18] {__main__} <module>: Manager Setup
+DEBUG - [2020-06-27 07:46:18] {__main__} <module>: Starting manager
+DEBUG - [2020-06-27 07:46:18] {core.planning.GoogleCalendar} <class 'core.planning.GoogleCalendar.GoogleCalendarAgent'> getEvents: event at 2020-06-27T13:30:00+02:00 called test
+DEBUG - [2020-06-27 07:46:18] {core.planning.GoogleCalendar} <class 'core.planning.GoogleCalendar.GoogleCalendarAgent'> getEvents: event at 2020-06-27T15:00:00+02:00 called 
+ERROR - [2020-06-27 07:46:18] {core.planning.GoogleCalendar} <class 'core.planning.GoogleCalendar.GoogleCalendarAgent'> getEvents: Event with no title program for time: 2020-06-27T15:00:00+02:00
+WARNING - [2020-06-27 07:46:18] {__main__} <module>: Manager stoped ? Or did program close ?
+
+[2020-06-27 07:47:01] Start
+DEBUG - [2020-06-27 07:47:01] {__main__} <module>: Logger imported
+DEBUG - [2020-06-27 07:47:01] {__main__} <module>: Configuration Loaded
+DEBUG - [2020-06-27 07:47:02] {core.configParser} <module>: Config Parser Imported
+INFO - [2020-06-27 07:47:02] {core.TVmanager} <class 'core.TVmanager.TVmanager'> reloadModules: Reloading internal modules
+DEBUG - [2020-06-27 07:47:02] {core.TVmanager} <class 'core.TVmanager.TVmanager'> reloadModules: Instantiate classes
+DEBUG - [2020-06-27 07:47:02] {core.configParser} configParser: Encoding config for class :'GoogleCalendarAgent'
+DEBUG - [2020-06-27 07:47:02] {core.configParser} configParser: Converting 'false' to 'bool' for param 'ReloadAccount'
+DEBUG - [2020-06-27 07:47:02] {core.configParser} configParser: Converting '10' to 'int' for param 'BufferSize'
+DEBUG - [2020-06-27 07:47:02] {core.configParser} configParser: Converting 'None' to 'str' for param 'ShowOnEmpty'
+DEBUG - [2020-06-27 07:47:02] {core.configParser} configParser: Converting 'TV' to 'str' for param 'CalendarName'
+DEBUG - [2020-06-27 07:47:02] {core.configParser} configParser: Converting 'core/planning/client_secret.json' to 'str' for param 'Client_secret_file'
+DEBUG - [2020-06-27 07:47:02] {core.configParser} configParser: Converting 'core/planning/google_flow.pickle' to 'str' for param 'Client_flow_pickle_file'
+DEBUG - [2020-06-27 07:47:02] {core.planning.GoogleCalendar} <class 'core.planning.GoogleCalendar.GoogleCalendarAgent'> __init__: Loading credential
+DEBUG - [2020-06-27 07:47:02] {core.planning.GoogleCalendar} <class 'core.planning.GoogleCalendar.GoogleCalendarAgent'> __init__: Starting service
+INFO - [2020-06-27 07:47:02] {core.planning.GoogleCalendar} <class 'core.planning.GoogleCalendar.GoogleCalendarAgent'> reload: Reloading calendar...
+DEBUG - [2020-06-27 07:47:03] {core.planning.GoogleCalendar} <class 'core.planning.GoogleCalendar.GoogleCalendarAgent'> reload: Set calendar as 'l9aa3gooeb3graogdp9rmjh3fc@group.calendar.google.com'
+DEBUG - [2020-06-27 07:47:03] {core.configParser} configParser: Encoding config for class :'ProgramLoader'
+DEBUG - [2020-06-27 07:47:03] {core.configParser} configParser: Converting './programs' to 'str' for param 'ProgramsFolder'
+DEBUG - [2020-06-27 07:47:03] {core.configParser} configParser: Encoding config for class :'VLCplay'
+DEBUG - [2020-06-27 07:47:03] {core.configParser} configParser: Converting 'false' to 'bool' for param 'HideVLC'
+DEBUG - [2020-06-27 07:47:03] {__main__} <module>: Manager Setup
+DEBUG - [2020-06-27 07:47:03] {__main__} <module>: Starting manager
+DEBUG - [2020-06-27 07:47:03] {core.planning.GoogleCalendar} <class 'core.planning.GoogleCalendar.GoogleCalendarAgent'> getEvents: event at 2020-06-27T13:30:00+02:00 called test
+DEBUG - [2020-06-27 07:47:03] {core.planning.GoogleCalendar} <class 'core.planning.GoogleCalendar.GoogleCalendarAgent'> getEvents: event at 2020-06-27T15:00:00+02:00 called 
+ERROR - [2020-06-27 07:47:03] {core.planning.GoogleCalendar} <class 'core.planning.GoogleCalendar.GoogleCalendarAgent'> getEvents: Event with no title program for time: 2020-06-27T15:00:00+02:00
+WARNING - [2020-06-27 07:47:03] {__main__} <module>: Manager stoped ? Or did program close ?
